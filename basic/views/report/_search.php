@@ -25,15 +25,17 @@ use yii\widgets\ActiveForm;
         'prompt' => '(не выбрано)']);?>
     <?= $form->field($model, 'category_id')->dropDownList(\yii\helpers\ArrayHelper::map(\app\models\ProductCategory::find()->all(), 'id', 'name'), [
         'prompt' => '(не выбрано)']);?>
-    <?=  $form->field($model, 'createdFrom')->widget(\yii\jui\DatePicker::className(),['clientOptions' => [
-        'dateFormat' => 'dd.mm.yyyy',
-        'language' => 'ru'
-    ]])  ?>
+    <?=  $form->field($model, 'createdFrom')->widget(\yii\jui\DatePicker::className(), [
+//            'dateFormat' => 'dd.mm.yyyy',
+//            'attribute' => 'dd-mm-yyyy',
+            'language' => 'ru'
+    ])  ?>
 
-     <?= $form->field($model, 'createdTo')->widget(\yii\jui\DatePicker::className(),['clientOptions' => [
-        'language' => 'ru',
-         'dateFormat' => 'yyyy-MM-dd',
-    ]])  ?>
+     <?= $form->field($model, 'createdTo')->widget(\yii\jui\DatePicker::className(),[
+     'language' => 'ru',
+//         'attribute' => 'dd-mm-yyyy',
+//    'dateFormat' => 'dd.mm.yyyy',
+     ]) ?>
 
     <?php // echo $form->field($model, 'price_id') ?>
 

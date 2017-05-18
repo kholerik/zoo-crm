@@ -47,6 +47,7 @@ AppAsset::register($this);
                     ['label' => 'Поставщики', 'url' => ['/vendor/index']],
                     ['label' => 'Производители', 'url' => ['/manufacturer/index']],
                     ['label' => 'Категории', 'url' => ['/product-category/index']],
+                    ['label' => 'Цены', 'url' => ['/price/index']],
                     ['label' => 'Архив', 'url' => ['/product/archive']],
                 ],
             ],

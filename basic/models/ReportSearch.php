@@ -6,7 +6,9 @@ use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use app\models\Product;
+use yii\data\ArrayDataProvider;
 use yii\db\Expression;
+use yii\helpers\ArrayHelper;
 
 /**
  * ReportSearch represents the model behind the search form about `app\models\Product`.
@@ -23,7 +25,36 @@ class ReportSearch extends Product
      */
     public $createdTo;
 
-    public $rating;
+
+    function beforeValidate()
+    {
+//        print_r( $this->createdTo );
+
+
+//        $str='04 May 2017';
+
+//        Yii::$app->formatter->locale = 'ru-RU';
+//        echo $str = Yii::$app->formatter->asDate('2017 Май 17', 'timestamp');
+//         echo Yii::$app->formatter->asDate('now', 'yyyy LLLL dd');
+//        echo (new \IntlDateFormatter('ru_RU', null, null, null, null, 'yyyy LLLL'))
+//            ->format(new \DateTime('2017 May'));
+
+
+//        echo $str,'<br/>';
+//        $datastamp=strtotime($str);
+//        echo $datastamp,'<br/>';
+//        $date = 1418372345; // исходное дата и время 12.12.2014 11:19:05
+//        $date_mas = getdate($date);
+//        echo $date_mas['mday'] . ' . ' . $date_mas['month'] . ' . ' . $date_mas['year'];
+//        echo gmdate('D, d M Y H:i:s T', $datastamp);
+
+
+
+//        die();
+        return parent::beforeValidate();
+    }
+
+
 
     /**
      * @inheritdoc
@@ -67,12 +98,36 @@ class ReportSearch extends Product
     public function search($params)
     {
         $query = Product::find();
+        // my section
+        $data = ArrayHelper::toArray($query, [
+            'app\models\Product' => [
+                'id',
+                'vendor_id',
+                'manufacturer_id',
+                'category_id',
+                'price_id',
+                'count',
+                'price',
+                'update_date',
+//              'createTime' => 'created_at',
+//                // the key name in array result => anonymous function
+//                'length' => function ($post) {
+//                    return strlen($post->content);
+//                },
+            ],
+        ]);
+        // my section
+//        print_r($query);
+//        die();
 
         // add conditions that should always apply here
 
-        $dataProvider = new ActiveDataProvider([
-            'query' => $query,
-        ]);
+        $dataProvider = new ArrayDataProvider([
+            'query' => $data,
+       ]);
+        //$dataProvider = new ActiveDataProvider([
+//            'query' => $query,
+//        ]);
 
         $this->load($params);
 

@@ -5,6 +5,7 @@ use yii\grid\GridView;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
+/* @var $searchModel app\models\ProductSearch */
 
 $this->title = 'Товары';
 $this->params['breadcrumbs'][] = $this->title;
@@ -18,11 +19,13 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
             'name',
             'vendor.name',
+            'vendorName',
             'manufacturer.name',
             'category.name',
             'price',

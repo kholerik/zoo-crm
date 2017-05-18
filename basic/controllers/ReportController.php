@@ -5,6 +5,8 @@ namespace app\controllers;
 use Yii;
 use app\models\Product;
 use app\models\ReportSearch;
+use yii\data\ActiveDataProvider;
+use yii\data\ArrayDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -43,6 +45,21 @@ class ReportController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
+
+
+    /**
+     * Lists all Order models.
+     * @return mixed
+     */
+//    public function actionIndex()
+//    {
+//        $dataProvider = new ArrayDataProvider([
+//            'query' => Product::find(),
+//        ]);
+//        return $this->render('index', [
+//            'dataProvider' => $dataProvider,
+//        ]);
+//    }
 
     /**
      * Displays a single Product model.

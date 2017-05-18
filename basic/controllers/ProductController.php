@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\ProductSearch;
 use Yii;
 use app\models\Product;
 use yii\data\ActiveDataProvider;
@@ -51,14 +52,24 @@ class ProductController extends Controller
      */
     public function actionIndex()
     {
-        $dataProvider = new ActiveDataProvider([
-           'query' => Product::find()->where(['status_check' => '0' ])
-            //'query' => Product::find()
-        ]);
+//        $dataProvider = new ActiveDataProvider([
+//           'query' => Product::find()->where(['status_check' => '0' ])
+//            //'query' => Product::find()
+//        ]);
+//
+//        return $this->render('index', [
+//            'dataProvider' => $dataProvider,
+//        ]);
+
+
+        $searchModel = new ProductSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
+            'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
+
     }
 
 
@@ -128,10 +139,19 @@ class ProductController extends Controller
      * @param integer $id
      * @return mixed
      */
+//    public function actionDelete($id)
+//    {
+//        $this->findModel($id)->delete();
+//
+//        return $this->redirect(['index']);
+//    }
+
+
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
-
+        $model = $this->findModel($id);
+        $model->status_check = 1;
+        $model->save(false,["status_check"]);
         return $this->redirect(['index']);
     }
 
