@@ -64,6 +64,7 @@ class Product extends \yii\db\ActiveRecord
             'status_check' => 'Статус',
             'price' => 'Цена',
             'update_date' => 'Дата изменения',
+            'vendorName' => 'Поставщик',
         ];
     }
 

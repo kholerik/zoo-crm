@@ -60,8 +60,8 @@ class ProductSearch extends Product
         $dataProvider->setSort([
             'attributes' => [
                 'vendorName' => [
-                    'asc' => ['vendorName' => SORT_ASC],
-                    'desc' => ['vendorName' => SORT_DESC],
+                    'asc' => ['vendor.name' => SORT_ASC],
+                    'desc' => ['vendor.name' => SORT_DESC],
                     'label' => 'Country Name'
                 ],
                 'price' => [
@@ -108,6 +108,8 @@ class ProductSearch extends Product
 //        }]);
 
         $query->andFilterWhere(['like', 'name', $this->name]);
+        $query->andFilterWhere(['like', 'vendor.name', $this->vendorName]);
+        $query->andFilterWhere(['status_check' => '0']);
 
         return $dataProvider;
     }

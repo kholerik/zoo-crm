@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\ProductSearch;
 use Yii;
 use app\models\Product;
 use yii\data\ActiveDataProvider;
@@ -51,13 +52,16 @@ class ProductController extends Controller
      */
     public function actionIndex()
     {
-        $dataProvider = new ActiveDataProvider([
-           'query' => Product::find()->where(['status_check' => '0' ])
-            //'query' => Product::find()
-        ]);
+//        $dataProvider = new ActiveDataProvider([
+//           'query' => Product::find()->where(['status_check' => '0' ])
+//            //'query' => Product::find()
+//        ]);
+        $searchModel = new ProductSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
             'dataProvider' => $dataProvider,
+            'searchModel' => $searchModel,
         ]);
     }
 
