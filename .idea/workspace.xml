@@ -1,415 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e21261f0-b9f8-46f1-8231-f277756cbe58" name="Default" comment="s">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/news/news.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/common/job.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/.idea/webServers.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/widgets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/common/afisha-right.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/dirPagination.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/entries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/news-block.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/fonts/Roboto_Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/fonts/Arimo-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/social.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/contest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/interview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/fonts/Arbat_Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/news-short.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/multiple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/topline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/horo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/sprite.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/companies/companies.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/.htaccess1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/headline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/news/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/common/news-right.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/main/actual.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/companies/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/templates/afisha/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../yii2/static/fonts/Arimo-Bold.ttf" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/photocontest/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/mail/layouts/html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Vschedule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/views/default/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/ImgController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Img.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/polls/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/1/88/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PcGallery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/functional/ContactFormCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/5843014bc804c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/CategoriesSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/76/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/74/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Ebrand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/components/authorRule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/post/opinion.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PosterSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/layouts/post.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PhotoContest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/appDEL/modules/admin/views/post/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/appDEL/modules/admin/views/post/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/vacancy/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/PcategoryController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/584305e281bf6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Spectopic.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/255/82/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EBrandMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/layouts/main.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/js/jquery.cropbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/5842e6cf5b71d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/spectopic/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/config/test_db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/assets/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/248/69/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/72/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/site/login222.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/76/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/5842f94b36b39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/5842e71069e1a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/views/enterprise/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/poster/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/StaticPageController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/layouts/admin11.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/controllers/PosterController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PollVariant.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/vacancy/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PAge.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/migrations/m161020_181656_create_post.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/LoginForm222.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/site/login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/css/jquery.cropbox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/_data/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/EnterpriseController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/_support/FunctionalTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Pphoto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/user/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Post.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/255/82/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/post/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Pctitle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/controllers/DefaultController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/vacancy/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/site/about.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/polls/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/5846dc23054be.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/poll/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Veducation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/Module.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/photocontest/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/acceptance/HomeCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EProduct.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/api/controllers/PollController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/components/MyConst.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/config/test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/PosterController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Cat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/_output/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/views/enterprise/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/58430ff686c13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/UserSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EalbumPhotoMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/img/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/config/DoRestweb.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/watermark.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/config/db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Poster.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/components/MyClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EproductMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/584301c0c1b9b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Enterprise.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/rbac/AuthorRule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/api/controllers/PostController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Ekeyword.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/api/Module.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PhotocontestSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/default/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/pcategory/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/bin/yii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/ContactForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/enterprise/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/247/67/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/img/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Ephone.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/photocontest/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/5842e66375ded.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/views/enterprise/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PFormat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/unit/models/ContactFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/245/78/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/index-test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/poster/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PcTag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/1/88/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/controllers/SiteController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/pcategory/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/5846dc23054be.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Eservice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/post/review.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Esocnet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PosterPhoto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/static-page/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PtimeMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EpageMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PollStatus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/58528aacdc9e8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/5842f9d14c78c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/75/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/categories/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/pcategory/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/247/67/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/255/87/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/post/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/site/signup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/248/69/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/247/67/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/post/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/spectopic/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Estock.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/components/vova07UploadAction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/255/82/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/img/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/255/87/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/acceptance/AboutCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/PostController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/248/70/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/categories/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PTime.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/enterprise/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/appDEL/modules/admin/views/post/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/img/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Ecategory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/runtime/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/VacancyController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PostSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/248/69/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/584301181083e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Status.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/user/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Poll.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/assets/AppAsset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/248/70/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/news/elfinder/some/sub/path/6015cbc6f16a317a9ca448561b5160ca6cd5bb138a3e61943ba3e7dca4c7e2af_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/244/71/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/VacancySearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/poster/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/1/88/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/245/78/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/Module.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/584301c0c1b9b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/photocontest/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/appDEL/modules/admin/views/post/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/post/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/spectopic/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/SpectopicController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/247/68/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/rbac/Rbac.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/acceptance/LoginCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/5842e6cf5b71d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/actions/UpdateAction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/5842e66375ded.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/site/contact.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/User.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/spectopic/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PPhotoMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/enterprise/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/245/78/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/vacancy/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/UserController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/_support/UnitTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Type.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/58528aacdc9e8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/unit/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/5842e71069e1a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/appDEL/modules/admin/views/post/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/user/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/controllers/EnterpriseController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/views/enterprise/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/72/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/StaticPage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/58430ffbcf9a0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/poster/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EBlock.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Post1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Categories.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/75/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/static-page/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/api/controllers/Poll2Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Vexperience.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/58528ab3a7fa7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/poster/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/config/console.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/migrations/m150318_154933_gallery_ext.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/77/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/247/67/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/yii" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Vcategory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/584301181083e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PCategoryIcon.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/requirements.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/255/87/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/categories/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Signup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Vstatus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/58430ffbcf9a0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EnterpriseSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/site/error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/static-page/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/categories/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/css/site.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/vacancy/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/DefaultController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/polls/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/commands/HelloController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/post/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/js/jquery.mousewhell.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/247/68/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/polls/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Euser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/PhotocontestController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/77/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/functional/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/acceptance/ContactCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/LoginForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/static-page/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Etree.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/bootstrap/Bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EDesign.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/247/68/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/5842f95a5c49b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/72/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/75/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/layouts/left-menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EAddress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/_support/AcceptanceTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/post/reportage.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/72/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/controllers/PostController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/acceptance/_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/584305039e52f.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/unit/models/LoginFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/functional/LoginFormCest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/PollsControllerDEL.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/commands/RbacController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/unit/models/UserTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/248/69/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/js/my.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/244/71/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/functional.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Efile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/255/87/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/categories/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/yii.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/pcategory/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/poster/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/user/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/248/70/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/74/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/post/interview.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/244/71/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/img/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/248/70/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/58430ff686c13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/images/store/Posts/Post12/65f9c9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/static-page/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/photocontest/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/config/web111.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/74/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/photocontest/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/poster/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/pcategory/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/vacancy/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Etariff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/5843014bc804c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Pcpartner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/244/71/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/75/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/User222.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/584304c10cac2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/584305e281bf6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/VcategoryMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/247/68/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/enterprise/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Ephoto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/post/importantNews.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PCategory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/components/budyagaCropperUploadAction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/245/78/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/5842e81ae8010.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/post/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/255/82/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/77/original.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/appDEL/modules/admin/views/post/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/config/params.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/actions/CreateAction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/user/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/76/preview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EstockMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/categories/_search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/acceptance.suite.yml.example" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PAlbumPhotoMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/api/controllers/TestController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/76/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/views/site/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/74/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/enterprise/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/PollSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/584305675f998.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/api/controllers/VacancyController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/post/_form.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/watermark/5842f9d14c78c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/post/58528ab3a7fa7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EfileMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/tests/bin/yii.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/EpostMn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/enterprise/create.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Metakeywords.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/components/myGalleryBehavior.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/controllers/RestController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/models/Vacancy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/img/view.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/252/77/small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/user/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/controllers/CategoriesController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/admin/views/spectopic/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/web/uploads/gallery/1/88/medium.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/config/web.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../backend/modules/enterprise/views/enterprise/view.php" afterPath="" />
+    <list default="true" id="e21261f0-b9f8-46f1-8231-f277756cbe58" name="Default" comment="" />
+    <list id="bc8a3e0c-7e01-4cf5-8c00-002e695afc39" name="Rejected commit: Default" comment="ss">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="zoo-crm2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,7 +25,60 @@
     <favorites_list name="zoo-crm2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ProductSearch.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/models/ProductSearch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/product/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <folding>
+                <marker date="1495122740274" expanded="true" signature="261:589" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerSearch.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/models/CustomerSearch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1021">
+              <caret line="96" column="51" selection-start-line="95" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderSearch.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/models/OrderSearch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/views/customer/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -441,22 +95,39 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/basic/views/order/_form.php" />
-        <option value="$PROJECT_DIR$/basic/views/product/index.php" />
-        <option value="$PROJECT_DIR$/basic/models/Customer.php" />
         <option value="$PROJECT_DIR$/basic/config/db.php" />
         <option value="$PROJECT_DIR$/basic/views/customer-category/view.php" />
         <option value="$PROJECT_DIR$/basic/views/product/_form.php" />
-        <option value="$PROJECT_DIR$/basic/views/report/index.php" />
-        <option value="$PROJECT_DIR$/basic/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/basic/views/report/_search.php" />
-        <option value="$PROJECT_DIR$/basic/controllers/ReportController.php" />
-        <option value="$PROJECT_DIR$/basic/models/ReportSearch.php" />
-        <option value="$PROJECT_DIR$/basic/controllers/ProductController.php" />
-        <option value="$PROJECT_DIR$/basic/models/Order.php" />
-        <option value="$PROJECT_DIR$/basic/views/order/index.php" />
-        <option value="$PROJECT_DIR$/basic/views/order/view.php" />
-        <option value="$PROJECT_DIR$/basic/models/Product.php" />
         <option value="$PROJECT_DIR$/basic/controllers/CustomerCategoryController.php" />
+        <option value="$PROJECT_DIR$/basic/views/manufacturer/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/vendor/index.php" />
+        <option value="$PROJECT_DIR$/basic/models/Order.php" />
+        <option value="$PROJECT_DIR$/basic/views/order/view.php" />
+        <option value="$PROJECT_DIR$/basic/web/css/site.css" />
+        <option value="$PROJECT_DIR$/basic/views/order/update.php" />
+        <option value="$PROJECT_DIR$/basic/views/site/index.php" />
+        <option value="$PROJECT_DIR$/basic/models/Price.php" />
+        <option value="$PROJECT_DIR$/basic/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/basic/models/Vendor.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/basic/config/web.php" />
+        <option value="$PROJECT_DIR$/basic/views/report/_search.php" />
+        <option value="$PROJECT_DIR$/basic/models/ReportSearch.php" />
+        <option value="$PROJECT_DIR$/basic/models/Product.php" />
+        <option value="$PROJECT_DIR$/basic/views/price/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/order/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/product-category/index.php" />
+        <option value="$PROJECT_DIR$/basic/views/customer-category/index.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/ReportController.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/CustomerController.php" />
+        <option value="$PROJECT_DIR$/basic/views/report/index.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/OrderController.php" />
+        <option value="$PROJECT_DIR$/basic/models/Customer.php" />
+        <option value="$PROJECT_DIR$/basic/views/customer/index.php" />
+        <option value="$PROJECT_DIR$/basic/models/CustomerSearch.php" />
+        <option value="$PROJECT_DIR$/basic/models/ProductSearch.php" />
+        <option value="$PROJECT_DIR$/basic/views/product/index.php" />
+        <option value="$PROJECT_DIR$/basic/models/OrderSearch.php" />
       </list>
     </option>
   </component>
@@ -470,7 +141,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -498,7 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -517,31 +188,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zoo-crm2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zoo-crm2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yii2/mysyktyvkar/backend" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </excluded-roots>
+  </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\localhost\zoo-crm2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OpenServer\domains\localhost\zoo-crm2\basic\views\report" />
     </key>
@@ -611,7 +276,11 @@
       <workItem from="1494823391275" duration="11177000" />
       <workItem from="1494875429280" duration="2528000" />
       <workItem from="1494922249980" duration="2671000" />
-      <workItem from="1494936513798" duration="204000" />
+      <workItem from="1494936513798" duration="3573000" />
+      <workItem from="1495005885493" duration="17388000" />
+      <workItem from="1495098717448" duration="7762000" />
+      <workItem from="1495120320723" duration="3958000" />
+      <workItem from="1495137600908" duration="2669000" />
     </task>
     <task id="LOCAL-00001" summary="s">
       <created>1494924750254</created>
@@ -620,28 +289,57 @@
       <option name="project" value="LOCAL" />
       <updated>1494924750254</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sasa">
+      <created>1495099817657</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1495099817657</updated>
+    </task>
+    <task id="LOCAL-00003" summary="123">
+      <created>1495109313069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495109313069</updated>
+    </task>
+    <task id="LOCAL-00004" summary="123">
+      <created>1495110109523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1495110109523</updated>
+    </task>
+    <task id="LOCAL-00005" summary="123">
+      <created>1495143647194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1495143647194</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23106000" />
+    <option name="totallyTimeSpent" value="58252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2648855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27836612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30605564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="92" y="92" width="1170" height="544" />
@@ -683,383 +381,408 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="s" />
-    <option name="LAST_COMMIT_MESSAGE" value="s" />
+    <MESSAGE value="ss" />
+    <MESSAGE value="sasa" />
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/models/ReportSearch.php">
+    <entry file="file://$PROJECT_DIR$/basic/controllers/CustomerCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/report/index.php">
+    <entry file="file://$PROJECT_DIR$/basic/views/vendor/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/report/_search.php">
+    <entry file="file://$PROJECT_DIR$/basic/assets/AppAsset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/ReportController.php">
+    <entry file="file://$PROJECT_DIR$/basic/views/test/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#35#43#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/ProductController.php">
+    <entry file="file://$PROJECT_DIR$/basic/models/Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="150" column="9" selection-start-line="150" selection-start-column="9" selection-end-line="150" selection-end-column="9" />
+        <state relative-caret-position="-460">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/TestController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="43" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/report/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/Report.php" />
+    <entry file="file://$PROJECT_DIR$/basic/models/ProductStatus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-446">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/vendor/yiisoft/yii2/db/ActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="306" column="0" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/models/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/product/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/order/index.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/order/view.php">
+    <entry file="file://$PROJECT_DIR$/basic/views/test/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/vendor/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/web/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/order/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/order/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/order/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/views/product/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="-154">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/product/index.php">
+    <entry file="file://$PROJECT_DIR$/basic/controllers/PriceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/order/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/Price.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="49" column="57" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/product/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/product/_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/Vendor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/PriceSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/config/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/jenssegers/date/src/Date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/models/ReportSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="87" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/price/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/manufacturer/_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/product-category/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/manufacturer/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/manufacturer/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/customer-category/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/CustomerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <element signature="e#35#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/ReportController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/report/_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <marker date="1495121684261" expanded="true" signature="1858:1890" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/views/report/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="74" column="11" selection-start-line="68" selection-start-column="8" selection-end-line="74" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/controllers/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <folding>
+            <element signature="e#35#62#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/models/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        <state relative-caret-position="-409">
+          <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/.htaccess1">
+    <entry file="file://$PROJECT_DIR$/basic/models/Customer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/actual.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/common/afisha-right.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/static/angular-ui-router.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/static/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/static/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/static/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/companies/companies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/contest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/.idea/dataSources.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/static/dirPagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/entries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/headline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/horo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/interview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/common/job.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/news/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/afisha/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/companies/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/multiple.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/news-block.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/common/news-right.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/news-short.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/.idea/webServers.xml">
+    <entry file="file://$PROJECT_DIR$/basic/views/order/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="149">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/topline.html">
+    <entry file="file://$PROJECT_DIR$/basic/views/customer/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/static/sprite.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/static/sprite.css">
+    <entry file="file://$PROJECT_DIR$/basic/models/CustomerSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1021">
+          <caret line="96" column="51" selection-start-line="95" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/social.html">
+    <entry file="file://$PROJECT_DIR$/basic/models/ProductSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="506">
+          <caret line="96" column="40" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/news/news.html">
+    <entry file="file://$PROJECT_DIR$/basic/views/product/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="328">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <marker date="1495122740274" expanded="true" signature="261:589" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../yii2/templates/main/widgets.html">
+    <entry file="file://$PROJECT_DIR$/basic/models/OrderSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../untitled/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/controllers/CustomerCategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="370">
+          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
           <folding />
         </state>
       </provider>
