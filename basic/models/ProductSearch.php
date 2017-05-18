@@ -13,7 +13,9 @@ use app\models\Product;
 class ProductSearch extends Product
 {
 
-    public $vendorName;
+    public $vendor;
+    public $manufacturer;
+    public $category;
     /**
      * @inheritdoc
      */
@@ -21,7 +23,7 @@ class ProductSearch extends Product
     {
         return [
             [['id', 'vendor_id', 'manufacturer_id', 'category_id', 'price_id', 'count', 'status_check', 'update_date'], 'integer'],
-            [['name', 'vendorName'], 'safe'],
+            [['name', 'vendor', 'manufacturer', 'category'], 'safe'],
             [['price'], 'number'],
         ];
     }
@@ -47,6 +49,7 @@ class ProductSearch extends Product
         $query = Product::find();
 
         // add conditions that should always apply here
+        $query->joinWith(['vendor', 'manufacturer', 'category']);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -59,17 +62,31 @@ class ProductSearch extends Product
          */
         $dataProvider->setSort([
             'attributes' => [
-                'vendorName' => [
-                    'asc' => ['vendorName' => SORT_ASC],
-                    'desc' => ['vendorName' => SORT_DESC],
-                    'label' => 'Country Name'
+                'manufacturer' => [
+                    'asc' => ['manufacturer.name' => SORT_ASC],
+                    'desc' => ['manufacturer.name' => SORT_DESC],
                 ],
-                'price' => [
+                'vendor' => [
                     'asc' => ['vendor.name' => SORT_ASC],
                     'desc' => ['vendor.name' => SORT_DESC],
-                    'label' => 'Country Name'
-                ]
-            ]
+                ],
+                'category' => [
+                    'asc' => ['category.name' => SORT_ASC],
+                    'desc' => ['category.name' => SORT_DESC],
+                ],
+                'name' => [
+                    'asc' => ['name' => SORT_ASC],
+                    'desc' => ['name' => SORT_DESC],
+                ],
+                'price' => [
+                    'asc' => ['price' => SORT_ASC],
+                    'desc' => ['price' => SORT_DESC],
+                ],
+                'count' => [
+                    'asc' => ['count' => SORT_ASC],
+                    'desc' => ['count' => SORT_DESC],
+                ],
+            ],
         ]);
 
 
@@ -77,7 +94,7 @@ class ProductSearch extends Product
         $this->load($params);
 
 
-        $query->joinWith(['vendor']);
+        $query->joinWith(['vendor', 'manufacturer', 'category']);
 
         if (!$this->validate()) {
             // uncomment the following line if you do not want to return any records when validation fails
@@ -85,7 +102,7 @@ class ProductSearch extends Product
             return $dataProvider;
         }
 
-        $this->addCondition($query, 'vendor_id');
+//        $this->addCondition($query, 'vendor_id');
 
         // grid filtering conditions
         $query->andFilterWhere([
@@ -109,38 +126,17 @@ class ProductSearch extends Product
 
         $query->andFilterWhere(['like', 'name', $this->name]);
 
+
+        if (!($this->load($params) && $this->validate())) {
+            return $dataProvider;
+        }
+
+        $query->andFilterWhere(['like', 'vendor.name', $this->vendor]);
+        $query->andFilterWhere(['like', 'manufacturer.name', $this->manufacturer]);
+        $query->andFilterWhere(['like', 'category.name', $this->category]);
+
         return $dataProvider;
-    }
-
-
-
-
-
-
-    protected function addCondition($query, $attribute, $partialMatch = false)
-    {
-        if (($pos = strrpos($attribute, '.')) !== false) {
-            $modelAttribute = substr($attribute, $pos + 1);
-        } else {
-            $modelAttribute = $attribute;
-        }
-
-        $value = $this->$modelAttribute;
-        if (trim($value) === '') {
-            return;
-        }
-
-        /*
-         * Для корректной работы фильтра со связью со
-         * свой же моделью делаем:
-         */
-        $attribute = "product.$attribute";
-
-        if ($partialMatch) {
-            $query->andWhere(['like', $attribute, $value]);
-        } else {
-            $query->andWhere([$attribute => $value]);
-        }
+//        return $dataProvider;
     }
 
 

@@ -35,6 +35,7 @@ class ReportController extends Controller
      * Lists all Product models.
      * @return mixed
      */
+
     public function actionIndex()
     {
         $searchModel = new ReportSearch();
@@ -45,7 +46,6 @@ class ReportController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
-
 
     /**
      * Lists all Order models.

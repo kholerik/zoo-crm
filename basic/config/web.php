@@ -8,6 +8,22 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
+        'dtConverter' => [
+            'class' => 'bupy7\datetime\converter\Converter',
+            // 'saveTimeZone' => 'UTC' - by default
+            // 'saveDate' => 'php:Y-m-d' - by default
+            // 'saveTime' => 'php:H:i:s' - by default
+            // 'saveDateTime' => 'php:U' - by default
+            // add format patterns if need for your locales (by default uses `en`)
+            'patterns' => [
+                'ru-RU' => [
+                    'displayTimeZone' => 'Europe/Moscow',
+                    'displayDate' => 'php:d.F.Y',
+                    'displayTime' => 'php:H:i',
+                    'displayDateTime' => 'php:d.F.Y, H:i',
+                ],
+            ],
+        ],      
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => '4Kedxyrt_5SGo2h1yFJwFklAhj9Z5APe',

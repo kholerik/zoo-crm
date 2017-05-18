@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\OrderSearch;
 use Yii;
 use app\models\Order;
 use yii\data\ActiveDataProvider;
@@ -51,11 +52,19 @@ class OrderController extends Controller
      */
     public function actionIndex()
     {
-        $dataProvider = new ActiveDataProvider([
-            'query' => Order::find(),
-        ]);
+//        $dataProvider = new ActiveDataProvider([
+//            'query' => Order::find(),
+//        ]);
+//
+//        return $this->render('index', [
+//            'dataProvider' => $dataProvider,
+//        ]);
+
+        $searchModel = new OrderSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
+            'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
     }

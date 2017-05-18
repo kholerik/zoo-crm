@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\CustomerSearch;
 use Yii;
 use app\models\Customer;
 use yii\data\ActiveDataProvider;
@@ -51,11 +52,19 @@ class CustomerController extends Controller
      */
     public function actionIndex()
     {
-        $dataProvider = new ActiveDataProvider([
-            'query' => Customer::find(),
-        ]);
+//        $dataProvider = new ActiveDataProvider([
+//            'query' => Customer::find(),
+////        ]);
+//
+//        return $this->render('index', [
+//            'dataProvider' => $dataProvider,
+//        ]);
+
+        $searchModel = new CustomerSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
+            'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
     }

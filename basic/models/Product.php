@@ -26,6 +26,7 @@ use Yii;
 class Product extends \yii\db\ActiveRecord
 {
 
+
     function afterSave($insert, $changedAttributes)
     {
             $oldPrice = Price::find()->where([
@@ -88,7 +89,10 @@ class Product extends \yii\db\ActiveRecord
             'status_check' => 'Архив',
             'price' => 'Цена',
             'update_date' => 'Дата изменения',
-            'vendorName' => 'Поставщик',
+//            'vendorName' => 'Поставщик',
+            'vendor' => 'Поставщик',
+            'manufacturer' => 'Производитель',
+            'category' => 'Категория',
         ];
     }
 
@@ -129,14 +133,12 @@ class Product extends \yii\db\ActiveRecord
 
     function getCountOrders() // метод будет извлекать некоторое поле связанной модели
     {
-
         return Order::find()->where(['product_id' => $this->id])->count(); // возвращаем поле указанной модели
-
     }
 
 
-    /* Геттер для названия страны */
-    public function getVendorName() {
-        return $this->vendor->name;
-    }
+//    /* Геттер для названия страны */
+//    public function getVendorName() {
+//        return $this->vendor->name;
+//    }
 }

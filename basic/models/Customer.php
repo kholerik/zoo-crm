@@ -18,6 +18,7 @@ use Yii;
  */
 class Customer extends \yii\db\ActiveRecord
 {
+
     /**
      * @inheritdoc
      */

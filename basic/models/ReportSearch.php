@@ -26,36 +26,6 @@ class ReportSearch extends Product
     public $createdTo;
 
 
-    function beforeValidate()
-    {
-//        print_r( $this->createdTo );
-
-
-//        $str='04 May 2017';
-
-//        Yii::$app->formatter->locale = 'ru-RU';
-//        echo $str = Yii::$app->formatter->asDate('2017 Май 17', 'timestamp');
-//         echo Yii::$app->formatter->asDate('now', 'yyyy LLLL dd');
-//        echo (new \IntlDateFormatter('ru_RU', null, null, null, null, 'yyyy LLLL'))
-//            ->format(new \DateTime('2017 May'));
-
-
-//        echo $str,'<br/>';
-//        $datastamp=strtotime($str);
-//        echo $datastamp,'<br/>';
-//        $date = 1418372345; // исходное дата и время 12.12.2014 11:19:05
-//        $date_mas = getdate($date);
-//        echo $date_mas['mday'] . ' . ' . $date_mas['month'] . ' . ' . $date_mas['year'];
-//        echo gmdate('D, d M Y H:i:s T', $datastamp);
-
-
-
-//        die();
-        return parent::beforeValidate();
-    }
-
-
-
     /**
      * @inheritdoc
      */
@@ -116,15 +86,26 @@ class ReportSearch extends Product
 //                },
             ],
         ]);
+
+
+        $dataProvider = new ArrayDataProvider([
+            'allModels' => $data,
+            'sort' => [
+                'attributes' => ['id', 'vendor_id', 'manufacturer_id', 'category_id', 'count'],
+            ],
+        ]);
+
         // my section
 //        print_r($query);
 //        die();
 
         // add conditions that should always apply here
 
-        $dataProvider = new ArrayDataProvider([
-            'query' => $data,
-       ]);
+
+//        $dataProvider = new ArrayDataProvider([
+//
+//
+//       ]);
         //$dataProvider = new ActiveDataProvider([
 //            'query' => $query,
 //        ]);

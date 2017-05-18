@@ -10,7 +10,7 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-
+use bupy7\datetime\converter\ConverterBehavior;
 /**
  * ProductController implements the CRUD actions for Product model.
  */
@@ -52,6 +52,10 @@ class ProductController extends Controller
      */
     public function actionIndex()
     {
+
+//        $datetime = '2015-06-07 12:45:00'composer require jenssegers/date;
+//        echo Yii::$app->dtConverter->toDisplayDateTime($datetime);
+//        die();
 //        $dataProvider = new ActiveDataProvider([
 //           'query' => Product::find()->where(['status_check' => '0' ])
 //            //'query' => Product::find()
