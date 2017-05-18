@@ -60,9 +60,11 @@ class ProductController extends Controller
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
+            'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
             'searchModel' => $searchModel,
         ]);
+
     }
 
 
@@ -132,10 +134,19 @@ class ProductController extends Controller
      * @param integer $id
      * @return mixed
      */
+//    public function actionDelete($id)
+//    {
+//        $this->findModel($id)->delete();
+//
+//        return $this->redirect(['index']);
+//    }
+
+
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
-
+        $model = $this->findModel($id);
+        $model->status_check = 1;
+        $model->save(false,["status_check"]);
         return $this->redirect(['index']);
     }
 

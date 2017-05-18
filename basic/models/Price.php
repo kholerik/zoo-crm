@@ -8,10 +8,9 @@ use Yii;
  * This is the model class for table "price".
  *
  * @property integer $id
- * @property integer $value
- * @property string $update_date
- *
- * @property Product[] $products
+ * @property integer $product_id
+ * @property string $value
+ * @property integer $create_date
  */
 class Price extends \yii\db\ActiveRecord
 {
@@ -29,8 +28,8 @@ class Price extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['value'], 'integer'],
-            [['update_date'], 'safe'],
+            [['product_id', 'create_date'], 'integer'],
+            [['value'], 'string', 'max' => 255],
         ];
     }
 
@@ -41,16 +40,15 @@ class Price extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'value' => 'Цена',
-            'update_date' => 'Дата изменения',
+            'product_id' => 'Товар',
+            'value' => 'Значение',
+            'create_date' => 'Дата изменения',
         ];
     }
 
-    /**
-     * @return \yii\db\ActiveQuery
-     */
-    public function getProducts()
+
+    public function getProduct()
     {
-        return $this->hasMany(Product::className(), ['price_id' => 'id']);
+        return $this->hasOne(Product::className(), ['id' => 'product_id']);
     }
 }

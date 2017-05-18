@@ -98,13 +98,14 @@ class Order extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getProducts()
-    {
-        return $this->hasMany(Product::className(), ['id' => 'product_id'])->viaTable('product_order_mn', ['order_id' => 'id']);
-    }
+//    public function getProducts()
+//    {
+//        return $this->hasMany(Product::className(), ['id' => 'product_id'])->viaTable('product_order_mn', ['order_id' => 'id']);
+//    }
 
     public function getProduct()
     {
-        return $this->hasMany(ProductOrderMn::className(), ['order_id' => 'id']);
+//        return $this->hasMany(ProductOrderMn::className(), ['order_id' => 'id']);
+        return $this->hasOne(Product::className(), ['id' => 'product_id']);
     }
 }

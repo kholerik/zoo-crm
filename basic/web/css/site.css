@@ -117,3 +117,7 @@ a.desc:after {
 .summary, .breadcrumb {
     display: none; /*Showing 1-2 of 2 items*/
 }
+
+.summary {
+    /*display: none; !*Showing 1-2 of 2 items*!*/
+}

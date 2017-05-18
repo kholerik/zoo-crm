@@ -25,6 +25,30 @@ use Yii;
  */
 class Product extends \yii\db\ActiveRecord
 {
+
+    function afterSave($insert, $changedAttributes)
+    {
+            $oldPrice = Price::find()->where([
+                'product_id' => $this->id,
+                'value' => $this->price
+            ]);
+
+//        $oldModel = Price::find();
+        if (!$oldPrice->exists()) {
+            $model = new Price();
+            $model->product_id = $this->id;
+            $model->value = $this->price;
+            $model->create_date = time();
+            $model->save();
+        }
+
+        if (isset($model) AND $model->getErrors()) {
+            print_r( $model ); die();
+        }
+
+        parent::afterSave($insert, $changedAttributes);
+    }
+
     /**
      * @inheritdoc
      */
@@ -61,7 +85,7 @@ class Product extends \yii\db\ActiveRecord
             'category_id' => 'Категория',
             'price_id' => 'Цена',
             'count' => 'Кол-во',
-            'status_check' => 'Статус',
+            'status_check' => 'Архив',
             'price' => 'Цена',
             'update_date' => 'Дата изменения',
             'vendorName' => 'Поставщик',
@@ -84,6 +108,8 @@ class Product extends \yii\db\ActiveRecord
         return $this->hasOne(Vendor::className(), ['id' => 'vendor_id']);
     }
 
+
+
     /**
      * @return \yii\db\ActiveQuery
      */
@@ -98,5 +124,19 @@ class Product extends \yii\db\ActiveRecord
     public function getCategory()
     {
         return $this->hasOne(ProductCategory::className(), ['id' => 'category_id']);
+    }
+
+
+    function getCountOrders() // метод будет извлекать некоторое поле связанной модели
+    {
+
+        return Order::find()->where(['product_id' => $this->id])->count(); // возвращаем поле указанной модели
+
+    }
+
+
+    /* Геттер для названия страны */
+    public function getVendorName() {
+        return $this->vendor->name;
     }
 }

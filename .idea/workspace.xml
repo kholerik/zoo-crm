@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e21261f0-b9f8-46f1-8231-f277756cbe58" name="Default" comment="s">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/basic/models/Report.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zoo-crm2.iml" afterPath="$PROJECT_DIR$/.idea/zoo-crm2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/composer.json" afterPath="$PROJECT_DIR$/basic/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/composer.lock" afterPath="$PROJECT_DIR$/basic/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/config/db.php" afterPath="$PROJECT_DIR$/basic/config/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/controllers/OrderController.php" afterPath="$PROJECT_DIR$/basic/controllers/OrderController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/controllers/ProductController.php" afterPath="$PROJECT_DIR$/basic/controllers/ProductController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/controllers/ReportController.php" afterPath="$PROJECT_DIR$/basic/controllers/ReportController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/models/Order.php" afterPath="$PROJECT_DIR$/basic/models/Order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/models/Price.php" afterPath="$PROJECT_DIR$/basic/models/Price.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/models/Product.php" afterPath="$PROJECT_DIR$/basic/models/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/models/ProductSearch.php" afterPath="$PROJECT_DIR$/basic/models/ProductSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/models/ReportSearch.php" afterPath="$PROJECT_DIR$/basic/models/ReportSearch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/models/Vendor.php" afterPath="$PROJECT_DIR$/basic/models/Vendor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/customer/index.php" afterPath="$PROJECT_DIR$/basic/views/customer/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/layouts/main.php" afterPath="$PROJECT_DIR$/basic/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/manufacturer/index.php" afterPath="$PROJECT_DIR$/basic/views/manufacturer/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/order/index.php" afterPath="$PROJECT_DIR$/basic/views/order/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/order/update.php" afterPath="$PROJECT_DIR$/basic/views/order/update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/order/view.php" afterPath="$PROJECT_DIR$/basic/views/order/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/product/index.php" afterPath="$PROJECT_DIR$/basic/views/product/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/report/_search.php" afterPath="$PROJECT_DIR$/basic/views/report/_search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/site/index.php" afterPath="$PROJECT_DIR$/basic/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/views/vendor/index.php" afterPath="$PROJECT_DIR$/basic/views/vendor/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basic/web/css/site.css" afterPath="$PROJECT_DIR$/basic/web/css/site.css" />
     </list>
     <ignored path="zoo-crm2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +57,8 @@
       <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
               <folding>
                 <element signature="e#35#64#0#PHP" expanded="true" />
               </folding>
@@ -58,27 +69,27 @@
       <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/models/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.038462">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+            <state vertical-scroll-proportion="-31.038462">
+              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basic/views/product/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.423077">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.60522497">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductSearch.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductSearch.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/models/ProductSearch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53120464">
+            <state vertical-scroll-proportion="-41.53846">
               <caret line="110" column="72" selection-start-line="110" selection-start-column="72" selection-end-line="110" selection-end-column="72" />
               <folding />
             </state>
@@ -115,10 +126,10 @@
         <option value="$PROJECT_DIR$/basic/views/order/view.php" />
         <option value="$PROJECT_DIR$/basic/controllers/CustomerCategoryController.php" />
         <option value="$PROJECT_DIR$/basic/config/db.php" />
-        <option value="$PROJECT_DIR$/basic/controllers/ProductController.php" />
-        <option value="$PROJECT_DIR$/basic/views/product/index.php" />
         <option value="$PROJECT_DIR$/basic/models/Product.php" />
         <option value="$PROJECT_DIR$/basic/models/ProductSearch.php" />
+        <option value="$PROJECT_DIR$/basic/controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/basic/views/product/index.php" />
       </list>
     </option>
   </component>
@@ -473,36 +484,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/views/product/index.php">
+    <entry file="file://$PROJECT_DIR$/basic/models/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.423077">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="40" />
+        <state vertical-scroll-proportion="-31.038462">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/models/Product.php">
+    <entry file="file://$PROJECT_DIR$/basic/models/ProductSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.038462">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        <state vertical-scroll-proportion="-41.53846">
+          <caret line="110" column="72" selection-start-line="110" selection-start-column="72" selection-end-line="110" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
           <folding>
             <element signature="e#35#64#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/models/ProductSearch.php">
+    <entry file="file://$PROJECT_DIR$/basic/views/product/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53120464">
-          <caret line="110" column="72" selection-start-line="110" selection-start-column="72" selection-end-line="110" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.60522497">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
           <folding />
         </state>
       </provider>
