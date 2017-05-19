@@ -6,7 +6,7 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Покупатели';
+$this->title = 'Покупатели ';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="customer-index">
@@ -25,9 +25,12 @@ $this->params['breadcrumbs'][] = $this->title;
             //'id',
             'name',
             'phone',
-            'category.name',
+//            'category.name',
             'pets',
-            // 'address',
+            [
+                'attribute' => 'category',
+                'value' => 'category.name',
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
