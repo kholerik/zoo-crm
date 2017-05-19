@@ -99,43 +99,9 @@ class ReportSearch extends Product
     {
         $query = Product::find();
         // my section
-        $data = ArrayHelper::toArray($query, [
-            'app\models\Product' => [
-                'id',
-                'vendor_id',
-                'manufacturer_id',
-                'category_id',
-                'price_id',
-                'count',
-                'price',
-                'update_date',
-//              'createTime' => 'created_at',
-//                // the key name in array result => anonymous function
-//                'length' => function ($post) {
-//                    return strlen($post->content);
-//                },
-            ],
-        ]);
-        // my section
-//        print_r($query);
-//        die();
-
-        // add conditions that should always apply here
-
-        $dataProvider = new ArrayDataProvider([
-            'query' => $data,
-       ]);
-        //$dataProvider = new ActiveDataProvider([
-//            'query' => $query,
-//        ]);
 
         $this->load($params);
 
-        if (!$this->validate()) {
-            // uncomment the following line if you do not want to return any records when validation fails
-            // $query->where('0=1');
-            return $dataProvider;
-        }
 
 //        $query = static::find()->select([
 //            'id',
@@ -145,8 +111,6 @@ class ReportSearch extends Product
 //            ->orderBy([
 //                'rating'=>SORT_ASC
 //            ]);
-
-
 
         // grid filtering conditions
         $query->andFilterWhere([
@@ -167,6 +131,42 @@ class ReportSearch extends Product
         $query->andFilterWhere(['like', 'name', $this->name]);
         $query->andFilterWhere(['>=', 'update_date', $this->createdFrom]);
         $query->andFilterWhere(['<=', 'update_date', $this->createdTo]);
+
+
+        $data = ArrayHelper::toArray($query->all(), [
+            'app\models\Product' => [
+                'id',
+                'vendor_id' => function ($item) {
+                    return $item->vendor->name;
+                },
+                'manufacturer_id',
+                'category_id',
+                'price_id',
+                'count',
+                'price',
+                'update_date',
+                'countOrders',
+//              'createTime' => 'created_at',
+//                // the key name in array result => anonymous function
+//                'length' => function ($post) {
+//                    return strlen($post->content);
+//                },
+            ],
+        ]);
+
+        $dataProvider = new ArrayDataProvider([
+            'key' => 'id',
+            'allModels' => $data,
+            'sort' => [
+                'attributes' => ['id', 'vendor_id', 'price', 'count', 'countOrders'],
+            ],
+        ]);
+
+        if (!$this->validate()) {
+            // uncomment the following line if you do not want to return any records when validation fails
+            // $query->where('0=1');
+            return $dataProvider;
+        }
 
         return $dataProvider;
     }
