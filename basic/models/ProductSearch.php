@@ -50,7 +50,7 @@ class ProductSearch extends Product
         $query = Product::find();
 
         // add conditions that should always apply here
-        $query->joinWith(['vendorGet', 'manufacturer', 'categoryGet']); // Здесь вродь не нужно
+        $query->joinWith(['vendorGet', 'manufacturer', 'categoryGet category']); // Здесь вродь не нужно
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,

@@ -50,7 +50,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
             [
                 'attribute' => 'category1',
-                'value' => 'vendorGet.name'
+                'value' => 'category.name'
             ],
 //                'attribute'=>'vendorName',
 //                'value' => function ($model, $key, $index) {
@@ -58,7 +58,7 @@ $this->params['breadcrumbs'][] = $this->title;
 //                },
 //            ],
             'manufacturer.name',
-            'category.name',
+          // это ведь дубликат category1  ==  'category.name',
 
             'price',
             'count',

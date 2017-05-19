@@ -3,6 +3,8 @@
 namespace app\controllers;
 
 use app\models\ProductSearch;
+use Carbon\Carbon;
+use Laravelrus\LocalizedCarbon\LocalizedCarbon;
 use Yii;
 use app\models\Product;
 use yii\data\ActiveDataProvider;
@@ -52,7 +54,6 @@ class ProductController extends Controller
      */
     public function actionIndex()
     {
-
 //        $datetime = '2015-06-07 12:45:00'composer require jenssegers/date;
 //        echo Yii::$app->dtConverter->toDisplayDateTime($datetime);
 //        die();

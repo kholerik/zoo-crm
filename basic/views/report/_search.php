@@ -45,10 +45,10 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'price') ?>
 
-<!--    --><?php // echo $form->field($model, 'update_date')->widget(\yii\jui\DatePicker::className(),['clientOptions' => [
-//        'language' => 'ru',
-//        'dateFormat' => 'yyyy-MM-dd',
-//    ]])  ?>
+    <?php  echo $form->field($model, 'update_date')->widget(\yii\jui\DatePicker::className(),['clientOptions' => [
+        'language' => 'ru',
+        'dateFormat' => 'yyyy-MM-dd',
+    ]])  ?>
 
     <div class="form-group">
         <?= Html::submitButton('Искать', ['class' => 'btn btn-primary']) ?>

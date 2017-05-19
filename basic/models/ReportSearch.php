@@ -62,8 +62,8 @@ class ReportSearch extends Product
     public function rules()
     {
         return [
-            [['id', 'vendor_id', 'manufacturer_id', 'category_id', 'price_id', 'count', 'status_check', 'update_date'], 'integer'],
-            [['name', 'createdFrom', 'createdTo'], 'safe'],
+            [['id', 'vendor_id', 'manufacturer_id', 'category_id', 'price_id', 'count', 'status_check'], 'integer'],
+            [['name', 'createdFrom', 'createdTo', 'update_date'], 'safe'],
             [['price'], 'number'],
         ];
     }
@@ -112,6 +112,12 @@ class ReportSearch extends Product
 //                'rating'=>SORT_ASC
 //            ]);
 
+        $updateDate =  Yii::$app->date->convertDate($this->update_date)->toTimestamp();
+        /**** Варианты использования ****/
+        //Yii::$app->date->convertDate($this->update_date)->toDate();
+        //Yii::$app->date->convertDate($this->update_date)->toDateWithZero();
+
+
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
@@ -122,7 +128,7 @@ class ReportSearch extends Product
             'count' => $this->count,
             'status_check' => $this->status_check,
             'price' => $this->price,
-            'update_date' => $this->update_date,
+            'update_date' => $updateDate,
 //            'rating' => new Expression('price as rating'),
         ]);
 
