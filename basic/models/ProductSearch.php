@@ -136,7 +136,7 @@ class ProductSearch extends Product
 
         // Here we search the attributes of our relations using our previously configured
         // ones in "ProductSearch"
-        $query->andFilterWhere(['like', 'vendor.name', $this->vendor1]);
+        $query->andFilterWhere(['like', 'vendor .name', $this->vendor1]);
         $query->andFilterWhere(['like', 'manufacturer.name', $this->manufacturer]);
         $query->andFilterWhere(['like', 'category.name', $this->category1]);
         $query->andFilterWhere(['like', 'product.name', $this->name]);
