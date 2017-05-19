@@ -22,7 +22,11 @@ $this->params['breadcrumbs'][] = $this->title;
 
             //'id',
             'name',
-            'vendor.name',
+//            'vendor.name',
+            [
+                'attribute' => 'vendor',
+                'value' => 'vendor.name'
+            ],
             'manufacturer.name',
             'category.name',
             // 'price_id',

@@ -106,8 +106,14 @@ class ReportSearch extends Product
         $data = ArrayHelper::toArray($query->all(), [
             'app\models\Product' => [
                 'id',
-                'vendor_id' => function ($item) {
-                    return $item->vendor->name;
+//                'vendor_id' => function ($item) {
+//                    return $item->vendor->name;
+//                },
+                'vendor' => function ($item) {
+                    return $item->vendor;
+                },
+                'vendor' => function ($item) {
+                    return $item->vendor;
                 },
                 'manufacturer_id',
                 'category_id',
@@ -127,7 +133,7 @@ class ReportSearch extends Product
             'key' => 'id',
             'allModels' => $data,
             'sort' => [
-                'attributes' => ['id', 'vendor_id', 'price', 'count', 'countOrders'],
+                'attributes' => ['id', 'vendor_id', 'vendor','price', 'count', 'countOrders'],
             ],
         ]);
         if (!$this->validate()) {
