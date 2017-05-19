@@ -30,6 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
              'price',
              'count',
             'update_date:date',
+            'countOrders',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
