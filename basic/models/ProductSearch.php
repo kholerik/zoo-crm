@@ -14,6 +14,7 @@ class ProductSearch extends Product
 {
 
     public $vendor1;
+    public $vendor11;
     public $manufacturer;
     public $category1;
     /**
