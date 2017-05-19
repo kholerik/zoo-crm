@@ -13,9 +13,9 @@ use app\models\Product;
 class ProductSearch extends Product
 {
 
-    public $vendor;
+    public $vendor1;
     public $manufacturer;
-    public $category;
+    public $category1;
     /**
      * @inheritdoc
      */
@@ -23,7 +23,7 @@ class ProductSearch extends Product
     {
         return [
             [['id', 'vendor_id', 'manufacturer_id', 'category_id', 'price_id', 'count', 'status_check', 'update_date'], 'integer'],
-            [['name', 'vendor', 'manufacturer', 'category'], 'safe'],
+            [['name', 'vendor1', 'manufacturer', 'category1'], 'safe'],
             [['price'], 'number'],
         ];
     }
@@ -49,7 +49,7 @@ class ProductSearch extends Product
         $query = Product::find();
 
         // add conditions that should always apply here
-        $query->joinWith(['vendor', 'manufacturer', 'category']);
+        $query->joinWith(['vendorGet', 'manufacturer', 'categoryGet']); // Здесь вродь не нужно
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -66,13 +66,19 @@ class ProductSearch extends Product
                     'asc' => ['manufacturer.name' => SORT_ASC],
                     'desc' => ['manufacturer.name' => SORT_DESC],
                 ],
-                'vendor' => [
+                'vendor1' => [
                     'asc' => ['vendor.name' => SORT_ASC],
                     'desc' => ['vendor.name' => SORT_DESC],
                 ],
-                'category' => [
-                    'asc' => ['category.name' => SORT_ASC],
-                    'desc' => ['category.name' => SORT_DESC],
+                // Important: here is how we set up the sorting
+                // The key is the attribute name on our "ProductSearch" instance
+                'category1' => [
+                    // The tables are the ones our relation are configured to
+                    // in my case they are prefixed with "tbl_"
+//                    'asc' => ['productCategory.name' => SORT_ASC],   //['tbl_city.name' => SORT_ASC],
+                    'asc' => ['product-category.name' => SORT_ASC],   //['tbl_city.name' => SORT_ASC],
+//                    'desc' => ['productCategory.name' => SORT_DESC],   //['tbl_city.name' => SORT_ASC],
+                    'desc' => ['product-category.name' => SORT_DESC],   //['tbl_city.name' => SORT_ASC],
                 ],
                 'name' => [
                     'asc' => ['name' => SORT_ASC],
@@ -89,12 +95,9 @@ class ProductSearch extends Product
             ],
         ]);
 
-
-
         $this->load($params);
 
-
-        $query->joinWith(['vendor', 'manufacturer', 'category']);
+//            $query->joinWith(['vendorGet', 'manufacturer', 'category']); // relations!!
 
         if (!$this->validate()) {
             // uncomment the following line if you do not want to return any records when validation fails
@@ -106,10 +109,10 @@ class ProductSearch extends Product
 
         // grid filtering conditions
         $query->andFilterWhere([
-            'id' => $this->id,
+//            'id' => $this->id,
             'vendor_id' => $this->vendor_id,
             'manufacturer_id' => $this->manufacturer_id,
-            'category_id' => $this->category_id,
+//            'category_id' => $this->category_id,
             'price_id' => $this->price_id,
             'count' => $this->count,
             'status_check' => $this->status_check,
@@ -124,16 +127,19 @@ class ProductSearch extends Product
 //            $q->where('vendor.name LIKE "%' . $this->vendorName . '%"');
 //        }]);
 
-        $query->andFilterWhere(['like', 'name', $this->name]);
 
 
         if (!($this->load($params) && $this->validate())) {
             return $dataProvider;
         }
 
-        $query->andFilterWhere(['like', 'vendor.name', $this->vendor]);
+        // Here we search the attributes of our relations using our previously configured
+        // ones in "ProductSearch"
+        $query->andFilterWhere(['like', 'vendor.name', $this->vendor1]);
         $query->andFilterWhere(['like', 'manufacturer.name', $this->manufacturer]);
-        $query->andFilterWhere(['like', 'category.name', $this->category]);
+        $query->andFilterWhere(['like', 'category.name', $this->category1]);
+        $query->andFilterWhere(['like', 'product.name', $this->name]);
+
 
         return $dataProvider;
 //        return $dataProvider;

@@ -42,16 +42,16 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'name',
             [
-                'attribute' => 'vendor',
-                'value' => 'vendor.name'
+                'attribute' => 'vendor1', // Заголовок, если назвать как связь, примет другое имя
+                'value' => 'vendorGet.name' // связь такая должна быть
             ],
             [
                 'attribute' => 'manufacturer',
                 'value' => 'manufacturer.name'
             ],
             [
-                'attribute' => 'category',
-                'value' => 'category.name'
+                'attribute' => 'category1',
+                'value' => 'vendorGet.name'
             ],
             'price',
             'count',

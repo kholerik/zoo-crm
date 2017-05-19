@@ -89,8 +89,9 @@ class Product extends \yii\db\ActiveRecord
             'status_check' => 'Архив',
             'price' => 'Цена',
             'update_date' => 'Дата изменения',
-//            'vendorName' => 'Поставщик',
-            'vendor' => 'Поставщик',
+            'vendor1' => 'Поставщик',
+//            'vendor' => 'Поставщик',
+//            'vendorGet' => 'Поставщик',
             'manufacturer' => 'Производитель',
             'category' => 'Категория',
         ];
@@ -107,11 +108,15 @@ class Product extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getVendor()
+    public function getVendorGet()
     {
         return $this->hasOne(Vendor::className(), ['id' => 'vendor_id']);
     }
 
+    public function getVendor()
+    {
+        return $this->hasOne(Vendor::className(), ['id' => 'vendor_id']);
+    }
 
 
     /**
@@ -125,6 +130,11 @@ class Product extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
+    public function getCategoryGet()
+    {
+        return $this->hasOne(ProductCategory::className(), ['id' => 'category_id']);
+    }
+
     public function getCategory()
     {
         return $this->hasOne(ProductCategory::className(), ['id' => 'category_id']);
