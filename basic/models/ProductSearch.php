@@ -63,20 +63,13 @@ class ProductSearch extends Product
          */
         $dataProvider->setSort([
             'attributes' => [
-<<<<<<< HEAD
-                'manufacturer' => [
-                    'asc' => ['manufacturer.name' => SORT_ASC],
-                    'desc' => ['manufacturer.name' => SORT_DESC],
-=======
-                'vendorName' => [
-                    'asc' => ['vendor.name' => SORT_ASC],
-                    'desc' => ['vendor.name' => SORT_DESC],
-                    'label' => 'Country Name'
->>>>>>> 7e833f0ec78729cfbfaa2b01f8efd03c26e10364
-                ],
                 'vendor1' => [
                     'asc' => ['vendor.name' => SORT_ASC],
                     'desc' => ['vendor.name' => SORT_DESC],
+                ],
+                'manufacturer' => [
+                    'asc' => ['manufacturer.name' => SORT_ASC],
+                    'desc' => ['manufacturer.name' => SORT_DESC],
                 ],
                 // Important: here is how we set up the sorting
                 // The key is the attribute name on our "ProductSearch" instance
@@ -116,17 +109,17 @@ class ProductSearch extends Product
 //        $this->addCondition($query, 'vendor_id');
 
         // grid filtering conditions
-        $query->andFilterWhere([
-//            'id' => $this->id,
-            'vendor_id' => $this->vendor_id,
-            'manufacturer_id' => $this->manufacturer_id,
-//            'category_id' => $this->category_id,
-            'price_id' => $this->price_id,
-            'count' => $this->count,
-            'status_check' => $this->status_check,
-            'price' => $this->price,
-            'update_date' => $this->update_date,
-        ]);
+//        $query->andFilterWhere([
+////            'id' => $this->id,
+//            'vendor_id' => $this->vendor_id,
+//            'manufacturer_id' => $this->manufacturer_id,
+////            'category_id' => $this->category_id,
+//            'price_id' => $this->price_id,
+//            'count' => $this->count,
+//            'status_check' => $this->status_check,
+//            'price' => $this->price,
+//            'update_date' => $this->update_date,
+//        ]);
 
         /* Настроим правила фильтрации */
 
@@ -135,12 +128,9 @@ class ProductSearch extends Product
 //            $q->where('vendor.name LIKE "%' . $this->vendorName . '%"');
 //        }]);
 
-<<<<<<< HEAD
-=======
-        $query->andFilterWhere(['like', 'name', $this->name]);
-        $query->andFilterWhere(['like', 'vendor.name', $this->vendorName]);
+
         $query->andFilterWhere(['status_check' => '0']);
->>>>>>> 7e833f0ec78729cfbfaa2b01f8efd03c26e10364
+
 
 
         if (!($this->load($params) && $this->validate())) {
@@ -149,7 +139,7 @@ class ProductSearch extends Product
 
         // Here we search the attributes of our relations using our previously configured
         // ones in "ProductSearch"
-        $query->andFilterWhere(['like', 'vendor .name', $this->vendor1]);
+        $query->andFilterWhere(['like', 'vendor.name', $this->vendor1]);
         $query->andFilterWhere(['like', 'manufacturer.name', $this->manufacturer]);
         $query->andFilterWhere(['like', 'category.name', $this->category1]);
         $query->andFilterWhere(['like', 'product.name', $this->name]);

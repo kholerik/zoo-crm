@@ -41,7 +41,6 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
             'name',
             [
-<<<<<<< HEAD
                 'attribute' => 'vendor1', // Заголовок, если назвать как связь, примет другое имя
                 'value' => 'vendorGet.name' // связь такая должна быть
             ],
@@ -53,15 +52,14 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute' => 'category1',
                 'value' => 'vendorGet.name'
             ],
-=======
-                'attribute'=>'vendorName',
-                'value' => function ($model, $key, $index) {
-                    return $model->vendor->name;
-                },
-            ],
+//                'attribute'=>'vendorName',
+//                'value' => function ($model, $key, $index) {
+//                    return $model->vendor->name;
+//                },
+//            ],
             'manufacturer.name',
             'category.name',
->>>>>>> 7e833f0ec78729cfbfaa2b01f8efd03c26e10364
+
             'price',
             'count',
 
