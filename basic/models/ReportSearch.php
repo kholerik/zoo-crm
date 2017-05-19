@@ -1,5 +1,7 @@
 <?php
+
 namespace app\models;
+
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
@@ -7,6 +9,7 @@ use app\models\Product;
 use yii\data\ArrayDataProvider;
 use yii\db\Expression;
 use yii\helpers\ArrayHelper;
+
 /**
  * ReportSearch represents the model behind the search form about `app\models\Product`.
  */
@@ -16,19 +19,27 @@ class ReportSearch extends Product
      * @var string
      */
     public $createdFrom;
+
     /**
      * @var string
      */
     public $createdTo;
+
+
     function beforeValidate()
     {
 //        print_r( $this->createdTo );
+
+
 //        $str='04 May 2017';
+
 //        Yii::$app->formatter->locale = 'ru-RU';
 //        echo $str = Yii::$app->formatter->asDate('2017 Май 17', 'timestamp');
 //         echo Yii::$app->formatter->asDate('now', 'yyyy LLLL dd');
 //        echo (new \IntlDateFormatter('ru_RU', null, null, null, null, 'yyyy LLLL'))
 //            ->format(new \DateTime('2017 May'));
+
+
 //        echo $str,'<br/>';
 //        $datastamp=strtotime($str);
 //        echo $datastamp,'<br/>';
@@ -36,9 +47,15 @@ class ReportSearch extends Product
 //        $date_mas = getdate($date);
 //        echo $date_mas['mday'] . ' . ' . $date_mas['month'] . ' . ' . $date_mas['year'];
 //        echo gmdate('D, d M Y H:i:s T', $datastamp);
+
+
+
 //        die();
         return parent::beforeValidate();
     }
+
+
+
     /**
      * @inheritdoc
      */
@@ -50,6 +67,7 @@ class ReportSearch extends Product
             [['price'], 'number'],
         ];
     }
+
     /**
      * @inheritdoc
      */
@@ -58,6 +76,8 @@ class ReportSearch extends Product
         // bypass scenarios() implementation in the parent class
         return Model::scenarios();
     }
+
+
     public function attributeLabels()
     {
         return [
@@ -67,6 +87,7 @@ class ReportSearch extends Product
             'category_id' => 'Категория',
         ];
     }
+
     /**
      * Creates data provider instance with search query applied
      *
@@ -78,7 +99,10 @@ class ReportSearch extends Product
     {
         $query = Product::find();
         // my section
+
         $this->load($params);
+
+
 //        $query = static::find()->select([
 //            'id',
 //            'vendor_id',
@@ -87,6 +111,7 @@ class ReportSearch extends Product
 //            ->orderBy([
 //                'rating'=>SORT_ASC
 //            ]);
+
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
@@ -100,20 +125,19 @@ class ReportSearch extends Product
             'update_date' => $this->update_date,
 //            'rating' => new Expression('price as rating'),
         ]);
+
+
+
         $query->andFilterWhere(['like', 'name', $this->name]);
         $query->andFilterWhere(['>=', 'update_date', $this->createdFrom]);
         $query->andFilterWhere(['<=', 'update_date', $this->createdTo]);
+
+
         $data = ArrayHelper::toArray($query->all(), [
             'app\models\Product' => [
                 'id',
-//                'vendor_id' => function ($item) {
-//                    return $item->vendor->name;
-//                },
-                'vendor' => function ($item) {
-                    return $item->vendor;
-                },
-                'vendor' => function ($item) {
-                    return $item->vendor;
+                'vendor_id' => function ($item) {
+                    return $item->vendor->name;
                 },
                 'manufacturer_id',
                 'category_id',
@@ -129,18 +153,21 @@ class ReportSearch extends Product
 //                },
             ],
         ]);
+
         $dataProvider = new ArrayDataProvider([
             'key' => 'id',
             'allModels' => $data,
             'sort' => [
-                'attributes' => ['id', 'vendor_id', 'vendor','price', 'count', 'countOrders'],
+                'attributes' => ['id', 'vendor_id', 'price', 'count', 'countOrders'],
             ],
         ]);
+
         if (!$this->validate()) {
             // uncomment the following line if you do not want to return any records when validation fails
             // $query->where('0=1');
             return $dataProvider;
         }
+
         return $dataProvider;
     }
 }

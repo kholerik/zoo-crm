@@ -17,16 +17,13 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
+//        'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
             //'id',
             'name',
-//            'vendor.name',
-            [
-                'attribute' => 'vendor',
-                'value' => 'vendor.name'
-            ],
+            'vendor.name',
             'manufacturer.name',
             'category.name',
             // 'price_id',

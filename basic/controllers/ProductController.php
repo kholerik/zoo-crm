@@ -60,18 +60,13 @@ class ProductController extends Controller
 //           'query' => Product::find()->where(['status_check' => '0' ])
 //            //'query' => Product::find()
 //        ]);
-//
-//        return $this->render('index', [
-//            'dataProvider' => $dataProvider,
-//        ]);
-
-
         $searchModel = new ProductSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
+            'searchModel' => $searchModel,
         ]);
 
     }
