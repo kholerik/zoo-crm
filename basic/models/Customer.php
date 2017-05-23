@@ -66,4 +66,25 @@ class Customer extends \yii\db\ActiveRecord
     {
         return $this->hasOne(CustomerCategory::className(), ['id' => 'category_id']);
     }
+
+    function getCountOrders() // метод будет извлекать некоторое поле связанной модели
+    {
+        return Order::find()->where(['customer_id' => $this->id])->count(); // возвращаем поле указанной модели
+    }
+
+    function getSumOrders() // метод будет извлекать некоторое поле связанной модели
+    {
+        return Order::find()->where(['customer_id' => $this->id])->sum('sum'); // возвращаем поле указанной модели
+    }
+
+    function getDateOrders() // метод будет извлекать некоторое поле связанной модели
+    {
+        return $this->hasOne(Order::className(), ['id' => 'customer_id'])
+//            ->where('subtotal > :threshold', [':threshold' => $threshold])
+            ->orderBy('id');
+        return Order::find()->where(['customer_id' => $this->id]); // возвращаем поле указанной модели
+//        $customers = Customer::findBySql($sql, [':status' => Customer::STATUS_INACTIVE])->all();
+//        return Order::find()->where(['customer_id' => $this->id])->sum('sum'); // возвращаем поле указанной модели
+    }
+
 }

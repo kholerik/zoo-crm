@@ -57,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
 //                    return $model->vendor->name;
 //                },
 //            ],
-            'manufacturer.name',
+//            'manufacturer.name',
           // это ведь дубликат category1  ==  'category.name',
 
             'price',

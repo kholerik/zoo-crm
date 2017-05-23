@@ -90,8 +90,6 @@ class Product extends \yii\db\ActiveRecord
             'price' => 'Цена',
             'update_date' => 'Дата изменения',
             'vendor1' => 'Поставщик',
-//            'vendor' => 'Поставщик',
-//            'vendorGet' => 'Поставщик',
             'manufacturer' => 'Производитель',
             'category' => 'Категория',
         ];
@@ -147,8 +145,4 @@ class Product extends \yii\db\ActiveRecord
     }
 
 
-//    /* Геттер для названия страны */
-//    public function getVendorName() {
-//        return $this->vendor->name;
-//    }
 }

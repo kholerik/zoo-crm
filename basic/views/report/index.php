@@ -13,7 +13,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="product-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-    <?php  echo $this->render('_search', ['model' => $searchModel]); ?>
+    <?php  echo $this->render('_search', ['model' => $searchModel]);
+    ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -21,22 +22,38 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             //'id',
-            'name',
-//            'vendor.name',
             [
+                'label'=>'Наименование',
+                'attribute' => 'name',
+                'value' => 'name'
+            ],
+            [
+                'label'=>'Поставщик',
                 'attribute' => 'vendor',
                 'value' => 'vendor.name'
             ],
-            'manufacturer.name',
-            'category.name',
-            // 'price_id',
-            // 'status_check',
-             'price',
-             'count',
-            'update_date:date',
-            'countOrders',
+            [
+                'label'=>'Производитель',
+                'attribute' => 'manufacturer',
+                'value' => 'manufacturer.name'
+            ],
+            [
+                'label'=>'Категория',
+                'attribute' => 'category',
+                'value' => 'category.name'
+            ],
+            [
+                'label'=>'Цена',
+                'attribute' => 'price',
+                'value' => 'price'
+            ],
+            [
+                'label'=>'Дата редактирования',
+                'attribute' => 'update_date',
+                'value' => 'update_date',
+                'format' => 'date',
+            ],
 
-            ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
 </div>

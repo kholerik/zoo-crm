@@ -21,14 +21,16 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'address')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'at_date')->widget(\yii\jui\DatePicker::className(),['clientOptions' => [
-        'language' => 'ru',
-        'dateFormat' => 'yyyy-MM-dd',
+        "dateFormat" => "M d, yy"
     ]]) ?>
 
-    <?= $form->field($model, 'delivery_date')->widget(\yii\jui\DatePicker::className(),['clientOptions' => [
-        'language' => 'ru',
-        'dateFormat' => 'yyyy-MM-dd',
-    ]]) ?>
+    <?= $form->field($model, 'delivery_date')->widget(\yii\jui\DatePicker::className(),
+        [
+//            'clientOptions' => [
+//                "dateFormat" => "M d, yy"
+//            ],
+//            'options' => ['class' => 'form-control'],
+        ]) ?>
 
     <?= $form->field($model, 'count')->textInput() ?>
 

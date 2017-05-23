@@ -1,6 +1,0 @@
-{
-    "require": {
-        "bupy7/yii2-datetime-converter": "*",
-        "jenssegers/date": "^3.2"
-    }
-}
