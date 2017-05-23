@@ -73,7 +73,7 @@ class ProductSearch extends Product
                 ],
                 // Important: here is how we set up the sorting
                 // The key is the attribute name on our "ProductSearch" instance
-                'category1' => [
+                'category1' => [ 
 //                    'asc' => ['productCategory.name' => SORT_ASC],   //['tbl_city.name' => SORT_ASC],
                     'asc' => ['category.name' => SORT_ASC],   //['tbl_city.name' => SORT_ASC],
 //                    'desc' => ['productCategory.name' => SORT_DESC],   //['tbl_city.name' => SORT_ASC],
